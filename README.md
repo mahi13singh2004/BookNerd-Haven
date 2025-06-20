@@ -102,7 +102,7 @@ npm install
 3. Start the development server:
 npm run dev
 
-4. 1. Navigate to the frontend directory:
+4. Navigate to the frontend directory:
 cd frontend
 
 5. Install dependencies:
