@@ -10,6 +10,7 @@ A RESTful API built with Node.js, Express, and MongoDB to manage a collection of
 - **Endpoint:** `/`
 - **Method:** `GET`
 - **Description:** Fetch all books from the database.
+
 **Response:**
 {
   "success": true,
