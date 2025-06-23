@@ -1,22 +1,12 @@
-import express from "express"
-import dotenv from "dotenv"
-import connectDB from "./db/connectDB.js"
-import bookRoutes from "./routes/book.route.js"
-import cors from "cors"
-dotenv.config()
+import dotenv from "dotenv";
+import connectDB from "./db/connectDB.js";
+import app from "./app.js";
+dotenv.config();
 
-const app=express()
-app.use(cors({
-    origin:"http://localhost:5173",
-    credentials:true
-}))
-app.use(express.json())
+const PORT = process.env.PORT || 5000;
 
-app.use("/api/books",bookRoutes)
-
-const PORT=process.env.PORT || 5000
-
-app.listen(PORT,(req,res)=>{
-    connectDB()
-    console.log(`server is running on port ${PORT}`)
-})
+connectDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(`server is running on port ${PORT}`);
+  });
+});
