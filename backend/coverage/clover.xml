@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1750710066153" clover="3.2.0">
-  <project timestamp="1750710066153" name="All files">
-    <metrics statements="41" coveredstatements="41" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="49" coveredelements="49" complexity="0" loc="41" ncloc="41" packages="4" files="4" classes="4"/>
+<coverage generated="1750710506013" clover="3.2.0">
+  <project timestamp="1750710506014" name="All files">
+    <metrics statements="41" coveredstatements="32" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4" elements="49" coveredelements="39" complexity="0" loc="41" ncloc="41" packages="4" files="4" classes="4"/>
     <package name="backend">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="C:\Users\mahi1\OneDrive\Desktop\KEPLOY\BookNerd-Haven\backend\app.js">
@@ -13,39 +13,39 @@
       </file>
     </package>
     <package name="backend.controllers">
-      <metrics statements="30" coveredstatements="30" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <metrics statements="30" coveredstatements="21" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
       <file name="book.controller.js" path="C:\Users\mahi1\OneDrive\Desktop\KEPLOY\BookNerd-Haven\backend\controllers\book.controller.js">
-        <metrics statements="30" coveredstatements="30" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <metrics statements="30" coveredstatements="21" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="cond" truecount="4" falsecount="0"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
         <line num="35" count="2" type="stmt"/>
-        <line num="36" count="2" type="stmt"/>
-        <line num="37" count="2" type="stmt"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
         <line num="51" count="2" type="stmt"/>
-        <line num="52" count="2" type="stmt"/>
-        <line num="53" count="2" type="stmt"/>
-        <line num="54" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
         <line num="55" count="1" type="stmt"/>
-        <line num="60" count="1" type="stmt"/>
-        <line num="61" count="1" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
       </file>
     </package>
     <package name="backend.models">
