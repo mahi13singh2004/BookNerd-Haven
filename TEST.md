@@ -55,5 +55,5 @@ npm test
 
 Below is a screenshot of the test coverage achieved:
 
-
+![Test Coverage Screenshot](./testing.png)
 ---
